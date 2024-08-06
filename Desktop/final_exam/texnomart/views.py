@@ -145,11 +145,6 @@ class ProductDeleteView(generics.DestroyAPIView):
     lookup_field = 'id'
 
 
-
-
-
-
-
 # Login API
 class LoginAPI(KnoxLoginView):
     permission_classes = (permissions.AllowAny,)
